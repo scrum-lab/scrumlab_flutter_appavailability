@@ -1,0 +1,20 @@
+name: scrumlab_flutter_appavailability
+description: Flutter plugin that allows you to check if an app is installed/enabled, launch an app and get the list of installed apps.
+version: 1.0.21
+homepage: https://github.com/scrum-lab/scrumlab_flutter_appavailability
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+  flutter: ">=1.10.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: br.com.scrumlab.scrumlab_flutter_appavailability
+        pluginClass: ScrumlabAppAvailability
+      ios:
+        pluginClass: ScrumlabAppAvailability
